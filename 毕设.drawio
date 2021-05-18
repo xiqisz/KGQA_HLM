@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T02:27:45.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="N19TnssM2-osBfBwBWie" version="14.6.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-18T09:31:12.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="UucVGZQVDIdXTY5nyzot" version="14.6.13" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1502" dy="603" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -215,6 +215,47 @@
         </mxCell>
         <mxCell id="zZUaBWYTl_WRNgPaZ70Z-25" value="关系自然语言表达式集" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="zZUaBWYTl_WRNgPaZ70Z-1">
           <mxGeometry x="355" y="55" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PQ-jM5qVPBfLpLZEQqt5-0" value="相似度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="zZUaBWYTl_WRNgPaZ70Z-1">
+          <mxGeometry x="190" y="114" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IQEhe4v35X5MhNR3iLkd" name="Page-4">
+    <mxGraphModel dx="1502" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Mh78Uva75jQCifwTx-8S-0" />
+        <mxCell id="Mh78Uva75jQCifwTx-8S-1" parent="Mh78Uva75jQCifwTx-8S-0" />
+        <mxCell id="Mh78Uva75jQCifwTx-8S-2" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="Mh78Uva75jQCifwTx-8S-1">
+          <mxGeometry x="80" y="80" width="660" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Mh78Uva75jQCifwTx-8S-4" value="人机交互模块" style="ellipse;whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="Mh78Uva75jQCifwTx-8S-1">
+          <mxGeometry x="520" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mh78Uva75jQCifwTx-8S-5" value="古诗词知识图谱模块" style="ellipse;whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="Mh78Uva75jQCifwTx-8S-1">
+          <mxGeometry x="120" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mh78Uva75jQCifwTx-8S-6" value="古诗词问答系统模块" style="ellipse;whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="Mh78Uva75jQCifwTx-8S-1">
+          <mxGeometry x="320" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mh78Uva75jQCifwTx-8S-11" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Mh78Uva75jQCifwTx-8S-1" source="Mh78Uva75jQCifwTx-8S-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="330" as="sourcePoint" />
+            <mxPoint x="320" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mh78Uva75jQCifwTx-8S-13" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="Mh78Uva75jQCifwTx-8S-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="330" as="sourcePoint" />
+            <mxPoint x="520" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mh78Uva75jQCifwTx-8S-14" value="提交问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="Mh78Uva75jQCifwTx-8S-1">
+          <mxGeometry x="450" y="300" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Mh78Uva75jQCifwTx-8S-15" value="传输答案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="Mh78Uva75jQCifwTx-8S-1">
+          <mxGeometry x="450" y="340" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
