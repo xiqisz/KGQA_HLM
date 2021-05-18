@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-16T14:42:57.418Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="F1rv63XmURIQA5f8WZCY" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-18T02:14:26.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="MCiSyJ-K3mHYbHgbsa_6" version="14.6.13" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1502" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,6 +150,71 @@
         </mxCell>
         <mxCell id="F9OO5Lno6_-3MTrtDbK7-22" value="sentence" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="zpu_LyPvjqYssEu80w9r-1">
           <mxGeometry x="540" y="420" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="k4GFAfr7sOW19bn_HxOB" name="Page-3">
+    <mxGraphModel dx="1502" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-0" />
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-1" parent="zZUaBWYTl_WRNgPaZ70Z-0" />
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-4" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zZUaBWYTl_WRNgPaZ70Z-1" source="zZUaBWYTl_WRNgPaZ70Z-2" target="zZUaBWYTl_WRNgPaZ70Z-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-2" value="用户问题输入" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="zZUaBWYTl_WRNgPaZ70Z-1">
+          <mxGeometry x="160" y="390" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-6" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zZUaBWYTl_WRNgPaZ70Z-1" source="zZUaBWYTl_WRNgPaZ70Z-3" target="zZUaBWYTl_WRNgPaZ70Z-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-3" value="语法分析" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="zZUaBWYTl_WRNgPaZ70Z-1">
+          <mxGeometry x="160" y="270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-13" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zZUaBWYTl_WRNgPaZ70Z-1" source="zZUaBWYTl_WRNgPaZ70Z-5" target="zZUaBWYTl_WRNgPaZ70Z-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-5" value="问题模板识别" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="zZUaBWYTl_WRNgPaZ70Z-1">
+          <mxGeometry x="160" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-11" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zZUaBWYTl_WRNgPaZ70Z-1" source="zZUaBWYTl_WRNgPaZ70Z-8" target="zZUaBWYTl_WRNgPaZ70Z-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-8" value="图数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=14.79998779296875;rounded=0;sketch=0;" vertex="1" parent="zZUaBWYTl_WRNgPaZ70Z-1">
+          <mxGeometry x="530" y="240" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-9" value="返回结果" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="zZUaBWYTl_WRNgPaZ70Z-1">
+          <mxGeometry x="510" y="390" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zZUaBWYTl_WRNgPaZ70Z-1" source="zZUaBWYTl_WRNgPaZ70Z-12" target="zZUaBWYTl_WRNgPaZ70Z-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-12" value="实体，关系，映射" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="zZUaBWYTl_WRNgPaZ70Z-1">
+          <mxGeometry x="340" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-16" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zZUaBWYTl_WRNgPaZ70Z-1" source="zZUaBWYTl_WRNgPaZ70Z-14" target="zZUaBWYTl_WRNgPaZ70Z-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-14" value="结构化查询语句生成" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="zZUaBWYTl_WRNgPaZ70Z-1">
+          <mxGeometry x="510" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-27" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zZUaBWYTl_WRNgPaZ70Z-1" source="zZUaBWYTl_WRNgPaZ70Z-21" target="zZUaBWYTl_WRNgPaZ70Z-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-21" value="" style="shape=card;whiteSpace=wrap;html=1;rounded=0;sketch=0;size=30;rotation=90;" vertex="1" parent="zZUaBWYTl_WRNgPaZ70Z-1">
+          <mxGeometry x="177.5" y="5" width="65" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-23" value="问题模板库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="zZUaBWYTl_WRNgPaZ70Z-1">
+          <mxGeometry x="175" y="50" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-24" value="" style="shape=card;whiteSpace=wrap;html=1;rounded=0;sketch=0;size=30;rotation=90;" vertex="1" parent="zZUaBWYTl_WRNgPaZ70Z-1">
+          <mxGeometry x="358.75" y="3.75" width="65" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-26" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zZUaBWYTl_WRNgPaZ70Z-1" source="zZUaBWYTl_WRNgPaZ70Z-25" target="zZUaBWYTl_WRNgPaZ70Z-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZUaBWYTl_WRNgPaZ70Z-25" value="关系自然语言表达式集" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="zZUaBWYTl_WRNgPaZ70Z-1">
+          <mxGeometry x="355" y="55" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
